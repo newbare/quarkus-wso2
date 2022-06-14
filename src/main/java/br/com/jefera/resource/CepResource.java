@@ -13,7 +13,7 @@ import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 import javax.ws.rs.core.Response.Status;
 
-@Path("/livrese/cep")
+@Path("/endereco/cep")
 public class CepResource  {
 
     @Inject

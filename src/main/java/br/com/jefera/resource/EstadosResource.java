@@ -11,7 +11,7 @@ import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 import javax.ws.rs.core.Response.Status;
 
-@Path("/livrese/estados")
+@Path("/estados/estados")
 public class EstadosResource {
 
     @Inject

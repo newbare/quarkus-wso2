@@ -13,7 +13,7 @@ import javax.ws.rs.core.MediaType;
 
 
 @Path("")
-@RegisterRestClient(configKey = "viacep-client")
+@RegisterRestClient(configKey = "wso2-client")
 @RegisterClientHeaders(CorpClientHeadersFactory.class)
 public interface ViaCepService {
     @GET

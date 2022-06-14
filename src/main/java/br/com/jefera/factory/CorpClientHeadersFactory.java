@@ -31,7 +31,6 @@ public class CorpClientHeadersFactory implements ClientHeadersFactory {
 
 	@ConfigProperty(name = "propagacao")
 	String propagate;
-
 	@Inject
 	OidcClient client;
 
